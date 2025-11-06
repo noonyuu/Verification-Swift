@@ -1,5 +1,5 @@
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
@@ -7,9 +7,9 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-          HStack {
-            // 機能
-          }
+            NavigationStack {
+                NavigationLink("willSet/didSet", destination: WillSetDidSet())
+            }
         }
     }
 }
