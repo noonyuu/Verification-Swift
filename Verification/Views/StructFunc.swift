@@ -148,7 +148,7 @@ struct Dish: OrderAcceptable {
 struct Pasta: OrderAcceptable {
     let ingredients: [String]
 
-    // コンストラクタ 
+    // コンストラクタ
     init(ingredients: [String]) {
         self.ingredients = ["パスタをおまけします\n"] + ingredients
     }

@@ -1,18 +1,11 @@
-//
-//  VerificationApp.swift
-//  Verification
-//
-//  Created by shimizu on 2025/10/10.
-//
-
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct VerificationApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Item.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
