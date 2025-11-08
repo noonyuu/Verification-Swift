@@ -1,6 +1,6 @@
-# Swift勉強
+# Swift 勉強
 
-swiftの機能・構文復習とか色々試すリポジトリ
+swift の機能・構文復習とか色々試すリポジトリ
 
 ## やっとこと
 
@@ -13,3 +13,4 @@ swiftの機能・構文復習とか色々試すリポジトリ
 
 - willSet, DidSet
 - Struct, Func, static
+- カスタム Binding
