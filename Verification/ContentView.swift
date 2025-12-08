@@ -30,6 +30,7 @@ struct ContentView: View {
                 NavigationLink("willSet/didSet", destination: WillSetDidSetView())
                 NavigationLink("StructとFuncの違い", destination: StructFuncView())
                 NavigationLink("カスタムBinding", destination: CustomBindingView())
+                NavigationLink("ジェネリック", destination: GenericView())
             }
         }
     }
